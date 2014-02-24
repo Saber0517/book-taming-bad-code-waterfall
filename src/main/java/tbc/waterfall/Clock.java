@@ -3,5 +3,9 @@ package tbc.waterfall;
 /**
  * Created by ben on 14-2-24.
  */
-public class Clock {
+public abstract class Clock {
+    private final int UTC_OFFSET = 0;
+    private int localTime = 0;
+
+    public abstract void setLocalTime(int localTime);
 }
