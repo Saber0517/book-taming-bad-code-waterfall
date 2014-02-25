@@ -4,7 +4,7 @@ package tbc.waterfall;
  * Created by ben on 14-2-24.
  */
 public abstract class Clock {
-    private static final int UTC_OFFSET = 0;
+    protected static final int UTC_OFFSET = 0;
     protected int localTime = 0;
 
     public abstract void setLocalTime(int localTime);
